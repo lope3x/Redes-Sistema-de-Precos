@@ -127,6 +127,7 @@ def main():
     server_socket = start_server()
     server_loop(server_socket)
 
+main()
 
 # TESTS
 #
