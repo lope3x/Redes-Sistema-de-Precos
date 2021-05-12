@@ -28,6 +28,7 @@ def send_data(data):
     server_message = pickle.loads(server_data)
 
     if server_data is None:
+        print("Error, dado não foi enviado")
         return
 
     if isinstance(server_message, str):
